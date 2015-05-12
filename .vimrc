@@ -60,6 +60,7 @@ Plugin 'a.vim'
 Plugin 'bufexplorer.zip'
 Plugin 'taglist.vim'
 Plugin 'grep.vim'
+Plugin 'mattn/emmet-vim'
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
@@ -187,3 +188,10 @@ autocmd BufWritePost *.py call Flake8()
 
 " copy to system clipboard instead of vim buffer
 set clipboard+=unnamedplus
+
+" set vim to chdir for each file
+if exists('+autochdir')
+    set autochdir
+else
+    autocmd BufEnter * silent! lcd %:p:h:gs/ /\\ /
+endif
