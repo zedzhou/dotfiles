@@ -61,6 +61,13 @@ Plugin 'bufexplorer.zip'
 Plugin 'taglist.vim'
 Plugin 'grep.vim'
 Plugin 'mattn/emmet-vim'
+" write go in vim
+Plugin 'fatih/vim-go'
+" instant rst
+Plugin 'Rykka/InstantRst'
+Plugin 'Rykka/riv.vim'
+" Beautify json style
+Plugin 'elzr/vim-json'
 " Git plugin not hosted on GitHub
 " Plugin 'git://git.wincent.com/command-t.git'
 " git repos on your local machine (i.e. when working on your own plugin)
