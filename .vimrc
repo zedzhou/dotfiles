@@ -106,22 +106,6 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 "End
 
 "Configure Startify
-" let g:startify_custom_header = [
-" 	\ '    ┏┓   ┏┓                                             ',
-" 	\ '   ┏┛┻━━━┛┻┓                                            ',
-" 	\ '   ┃   ━ 　┃                                            ',
-" 	\ '   ┃ ┳┛ ┗┳ ┃                                            ',
-" 	\ '   ┃ 　　　┃                                            ',
-" 	\ '   ┃   ┻   ┃    __      ___            ______ _  __     ',
-" 	\ '   ┗━┓ 　┏━┛    \ \    / (_)           |____  | / /     ',
-" 	\ '     ┃   ┃       \ \  / / _ _ __ ___       / / / /__    ',
-" 	\ '     ┃   ┗━━━┓    \ \/ / | | ''_ ` _  \    / / / /_| |_ ',
-" 	\ '     ┃       ┣┓    \  /  | | | | | | |   / /  |___| |_| ',
-" 	\ '     ┃       ┏┛     \/   |_|_| |_| |_|  /_(_)     |_|   ',
-" 	\ '     ┗┓┓┏━┳┓┏┛                                          ',
-" 	\ '      ┃┫┫ ┃┫┫   ',
-" 	\ '      ┗┻┛ ┗┻┛   ',
-" 	\]
 " let g:startify_custom_header = split(system('fortune | cowsay'), '\n') + ['','']
 let g:startify_custom_header = map(split(system('fortune | cowsay'), '\n'), '"   ". v:val') + ['','']
 let g:startify_bookmarks = [ '~/.vimrc', 'Workspace/Tapplex/Projects/' ]
