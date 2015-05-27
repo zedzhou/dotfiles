@@ -1,0 +1,13 @@
+"3.8.3 (created: 2014/11/09 13:19:01)
+
+set hintchars=hjklasdf
+source! /home/zedzhou/.vimperatorrc.local
+
+" vim: set ft=vimperator:
+inoremap jk <esc>
+iabbrev mg1 kindandyful@gmail.com
+iabbrev mg2 imzedbez@gmail.com
+iabbrev mq 731021378@qq.com
+iabbrev mtp zhouyusong@tapplex.com
+nnoremap j 5j
+nnoremap k 5k
